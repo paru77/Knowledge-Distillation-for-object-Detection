@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 python inference.py --weights outputs/training/fasterrcnn_vitdet_voc/best_model.pth --input ../input/inference_data/ --imgsz 640 --square-img --threshold 0.90

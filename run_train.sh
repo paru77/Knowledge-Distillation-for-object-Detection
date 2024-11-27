@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 python train.py --model fasterrcnn_vitdet --data data_configs/voc.yaml --epochs 50 --batch 16 --imgsz 640 --square-training --use-train-aug --name fasterrcnn_vitdet_temp_voc --lr 0.005 --resume-training --weights outputs/training/fasterrcnn_vitdet_voc/last_model.pth

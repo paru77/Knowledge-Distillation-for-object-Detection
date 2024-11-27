@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python train.py --model fasterrcnn_dino --data data_configs/voc.yaml --epochs 50 --batch 16 --imgsz 672 --square-training --name fasterrcnn_dino_temp_voc --lr 0.005 #--use-train-aug #--resume-training --weights outputs/training/fasterrcnn_dino_voc/last_model.pth

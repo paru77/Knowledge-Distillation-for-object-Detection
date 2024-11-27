@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python train_kd.py --model fasterrcnn_mobilenetv3_large_fpn --data data_configs/voc.yaml --epochs 70 --batch 16 --imgsz 640 --square-training --use-train-aug --name fasterrcnn_mobilenetv3_large_fpn_voc --lr 0.005 --resume-training --weights outputs/training/fasterrcnn_mobilenetv3_large_fpn_voc/last_model_49.pth

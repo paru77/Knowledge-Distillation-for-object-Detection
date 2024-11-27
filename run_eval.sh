@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python eval.py --weights outputs/training/fasterrcnn_vitdet_voc/best_model.pth --imgsz 640 --square-training
